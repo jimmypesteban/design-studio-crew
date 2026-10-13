@@ -1,0 +1,6 @@
+{
+  "tools": [
+    "run_checks"
+  ],
+  "note": "run_checks is built in code (src/reviewer). It is not an LLM tool."
+}

@@ -1,0 +1,61 @@
+{
+  "image": "img/audit-page-1024.png",
+  "width": 1024,
+  "height": 520,
+  "pins": [
+    {
+      "rule": "heading-skip",
+      "detail": "A heading jumps from h1 to h4.",
+      "fix": "Use h2 here and use the size classes to style it.",
+      "x": 2.15,
+      "y": 21.34,
+      "w": 95.7,
+      "h": 3.08
+    },
+    {
+      "rule": "contrast",
+      "detail": "#999999 on #FAFAFA measures 2.73:1 at 17px, needs 4.5:1.",
+      "fix": "Change the text to mo-grey (#6B6A66), the closest Moon colour that passes on this background.",
+      "x": 3.13,
+      "y": 29.61,
+      "w": 18.07,
+      "h": 4.03
+    },
+    {
+      "rule": "contrast",
+      "detail": "#22C55E on #FAFAFA measures 2.18:1 at 26px, needs 3:1.",
+      "fix": "Change the text to mo-green-8 (#3B8B57), the closest Moon colour that passes on this background.",
+      "x": 3.13,
+      "y": 34.62,
+      "w": 18.07,
+      "h": 5.95
+    },
+    {
+      "rule": "broken-image",
+      "detail": "An image did not load (missing-banner.png).",
+      "fix": "Fix the image address or remove the image.",
+      "x": 2.15,
+      "y": 48.65,
+      "w": 29.3,
+      "h": 11.54
+    },
+    {
+      "rule": "long-line",
+      "detail": "Lines run about 151 characters, which is hard to follow. Aim for 45 to 90.",
+      "fix": "Limit the text width, for example max-w-prose.",
+      "x": 2.15,
+      "y": 63.28,
+      "w": 95.7,
+      "h": 6.92
+    },
+    {
+      "rule": "missing-label",
+      "detail": "Form field has no label.",
+      "fix": "Give it a visible label tied to the field with for and id. Placeholder text is not a label.",
+      "x": 2.15,
+      "y": 72.69,
+      "w": 14.94,
+      "h": 4.03
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "design-studio-crew",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A Telegram-controlled studio of AI design agents that builds on the Moon design system.",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "demo": "tsx --env-file-if-exists=.env src/cli.ts demo",
+    "docs": "tsx --env-file-if-exists=.env scripts/build-docs.ts",
+    "demo:audit": "tsx --env-file-if-exists=.env src/cli.ts demo --audit",
+    "demo:brand": "tsx --env-file-if-exists=.env src/cli.ts demo --brand",
+    "demo:clean": "tsx --env-file-if-exists=.env src/cli.ts demo --clean",
+    "studio": "tsx --env-file-if-exists=.env src/cli.ts studio",
+    "log": "tsx --env-file-if-exists=.env src/cli.ts log",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test --test-concurrency=1 test/*.test.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.132.1",
+    "grammy": "^1.46.0",
+    "parse5": "^8.0.1",
+    "puppeteer-core": "^25.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}

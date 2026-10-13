@@ -1,0 +1,1 @@
+{ "tools": ["lookup_token"], "note": "The React draft, type check, render and comparison with the approved screen are built in code (src/handoff)." }

@@ -1,0 +1,1 @@
+{ "tools": ["lookup_token", "check_contrast"], "note": "Image generation is not an agent tool. The studio runs it only after Jimmy approves the plan." }
